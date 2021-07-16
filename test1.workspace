@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="test1" Database="" Version="10.0.0">
+  <Project Name="test1" Path="test1/test1.project" Active="No"/>
+  <Project Name="test2" Path="test2/test2.project" Active="No"/>
+  <Project Name="Lec5_HowCppWorks" Path="Lec5_HowCppWorks/Lec5_HowCppWorks.project" Active="No"/>
+  <Project Name="Lec6_HowCompilerWorks" Path="Lec6_HowCompilerWorks/Lec6_HowCompilerWorks.project" Active="No"/>
+  <Project Name="test1" Path="test1/test1.project" Active="No"/>
+  <Project Name="test3" Path="test3/test3.project" Active="No"/>
+  <Project Name="Lec7_HowLinkerWorks" Path="Lec7_HowLinkerWorks/Lec7_HowLinkerWorks.project" Active="No"/>
+  <Project Name="Lec8_Variables" Path="Lec8_Variables/Lec8_Variables.project" Active="No"/>
+  <Project Name="Lec9_Functions" Path="Lec9_Functions/Lec9_Functions.project" Active="No"/>
+  <Project Name="Lec10_HeaderFiles" Path="Lec10_HeaderFiles/Lec10_HeaderFiles.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="test1" ConfigName="Debug"/>
+      <Project Name="test2" ConfigName="Debug"/>
+      <Project Name="Lec5_HowCppWorks" ConfigName="Debug"/>
+      <Project Name="Lec6_HowCompilerWorks" ConfigName="Debug"/>
+      <Project Name="test1" ConfigName="Debug"/>
+      <Project Name="test3" ConfigName="Debug"/>
+      <Project Name="Lec7_HowLinkerWorks" ConfigName="Debug"/>
+      <Project Name="Lec8_Variables" ConfigName="Debug"/>
+      <Project Name="Lec9_Functions" ConfigName="Debug"/>
+      <Project Name="Lec10_HeaderFiles" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="test1" ConfigName="Release"/>
+      <Project Name="test2" ConfigName="Release"/>
+      <Project Name="Lec5_HowCppWorks" ConfigName="Release"/>
+      <Project Name="Lec6_HowCompilerWorks" ConfigName="Release"/>
+      <Project Name="test1" ConfigName="Release"/>
+      <Project Name="test3" ConfigName="Release"/>
+      <Project Name="Lec7_HowLinkerWorks" ConfigName="Release"/>
+      <Project Name="Lec8_Variables" ConfigName="Release"/>
+      <Project Name="Lec9_Functions" ConfigName="Release"/>
+      <Project Name="Lec10_HeaderFiles" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
