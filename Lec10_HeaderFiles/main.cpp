@@ -9,7 +9,8 @@
 // hi!
 int main(int argc, char **argv)
 {
-	InitLog();
-	//Log("hello world");
+	//InitLog();
+	int a = 10;
+	Log("hello world");
 	return 0;
 }

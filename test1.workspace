@@ -9,7 +9,12 @@
   <Project Name="Lec7_HowLinkerWorks" Path="Lec7_HowLinkerWorks/Lec7_HowLinkerWorks.project" Active="No"/>
   <Project Name="Lec8_Variables" Path="Lec8_Variables/Lec8_Variables.project" Active="No"/>
   <Project Name="Lec9_Functions" Path="Lec9_Functions/Lec9_Functions.project" Active="No"/>
-  <Project Name="Lec10_HeaderFiles" Path="Lec10_HeaderFiles/Lec10_HeaderFiles.project" Active="Yes"/>
+  <Project Name="Lec10_Header" Path="Lec10_HeaderFiles/Lec10_HeaderFiles.project" Active="No"/>
+  <Project Name="Lec12_CondStat" Path="Lec11_Debugging/Lec11_Debugging.project" Active="No"/>
+  <Project Name="Lec14_Loops" Path="Lec14_Loops/Lec14_Loops.project" Active="No"/>
+  <Project Name="Lec15_ControlFlow" Path="Lec15_ControlFlow/Lec15_ControlFlow.project" Active="No"/>
+  <Project Name="Lec16_Pointers" Path="Lec16_Pointers/Lec16_Pointers.project" Active="No"/>
+  <Project Name="Lec17_References" Path="Lec17_References/Lec17_References.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -22,7 +27,12 @@
       <Project Name="Lec7_HowLinkerWorks" ConfigName="Debug"/>
       <Project Name="Lec8_Variables" ConfigName="Debug"/>
       <Project Name="Lec9_Functions" ConfigName="Debug"/>
-      <Project Name="Lec10_HeaderFiles" ConfigName="Debug"/>
+      <Project Name="Lec10_Header" ConfigName="Debug"/>
+      <Project Name="Lec12_CondStat" ConfigName="Debug"/>
+      <Project Name="Lec14_Loops" ConfigName="Debug"/>
+      <Project Name="Lec15_ControlFlow" ConfigName="Debug"/>
+      <Project Name="Lec16_Pointers" ConfigName="Debug"/>
+      <Project Name="Lec17_References" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -35,7 +45,12 @@
       <Project Name="Lec7_HowLinkerWorks" ConfigName="Release"/>
       <Project Name="Lec8_Variables" ConfigName="Release"/>
       <Project Name="Lec9_Functions" ConfigName="Release"/>
-      <Project Name="Lec10_HeaderFiles" ConfigName="Release"/>
+      <Project Name="Lec10_Header" ConfigName="Release"/>
+      <Project Name="Lec12_CondStat" ConfigName="Release"/>
+      <Project Name="Lec14_Loops" ConfigName="Release"/>
+      <Project Name="Lec15_ControlFlow" ConfigName="Release"/>
+      <Project Name="Lec16_Pointers" ConfigName="Release"/>
+      <Project Name="Lec17_References" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
