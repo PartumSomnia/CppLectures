@@ -14,7 +14,18 @@
   <Project Name="Lec14_Loops" Path="Lec14_Loops/Lec14_Loops.project" Active="No"/>
   <Project Name="Lec15_ControlFlow" Path="Lec15_ControlFlow/Lec15_ControlFlow.project" Active="No"/>
   <Project Name="Lec16_Pointers" Path="Lec16_Pointers/Lec16_Pointers.project" Active="No"/>
-  <Project Name="Lec17_References" Path="Lec17_References/Lec17_References.project" Active="Yes"/>
+  <Project Name="Lec17_References" Path="Lec17_References/Lec17_References.project" Active="No"/>
+  <Project Name="Lec18_Classes" Path="Lec18_Classes/Lec18_Classes.project" Active="No"/>
+  <Project Name="Lec19_ClassStructs" Path="Lec19_ClassStructs/Lec19_ClassStructs.project" Active="No"/>
+  <Project Name="Lec20_HowToWriteClass" Path="Lec20_HowToWriteClass/Lec20_HowToWriteClass.project" Active="No"/>
+  <Project Name="Lec21_Static" Path="Lec21_Static/Lec21_Static.project" Active="No"/>
+  <Project Name="Lec22_StaticInClass" Path="Lec22_StaticInClass/Lec22_StaticInClass.project" Active="No"/>
+  <Project Name="Lec23_LocalStat" Path="Lec23_LocalStat/Lec23_LocalStat.project" Active="No"/>
+  <Project Name="Lec24_Enums" Path="Lec24_Enums/Lec24_Enums.project" Active="No"/>
+  <Project Name="Lec25_ClassConstruct" Path="Lec25_ClassConstruct/Lec25_ClassConstruct.project" Active="No"/>
+  <Project Name="Lec26_Descructors" Path="Lec26_Descructors/Lec26_Descructors.project" Active="No"/>
+  <Project Name="Lec27_Inheritance" Path="Lec27_Inheritance/Lec27_Inheritance.project" Active="No"/>
+  <Project Name="Lec28_VirtFuncs" Path="Lec28_VirtFuncs/Lec28_VirtFuncs.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -33,6 +44,17 @@
       <Project Name="Lec15_ControlFlow" ConfigName="Debug"/>
       <Project Name="Lec16_Pointers" ConfigName="Debug"/>
       <Project Name="Lec17_References" ConfigName="Debug"/>
+      <Project Name="Lec18_Classes" ConfigName="Debug"/>
+      <Project Name="Lec19_ClassStructs" ConfigName="Debug"/>
+      <Project Name="Lec20_HowToWriteClass" ConfigName="Debug"/>
+      <Project Name="Lec21_Static" ConfigName="Debug"/>
+      <Project Name="Lec22_StaticInClass" ConfigName="Debug"/>
+      <Project Name="Lec23_LocalStat" ConfigName="Debug"/>
+      <Project Name="Lec24_Enums" ConfigName="Debug"/>
+      <Project Name="Lec25_ClassConstruct" ConfigName="Debug"/>
+      <Project Name="Lec26_Descructors" ConfigName="Debug"/>
+      <Project Name="Lec27_Inheritance" ConfigName="Debug"/>
+      <Project Name="Lec28_VirtFuncs" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -51,6 +73,17 @@
       <Project Name="Lec15_ControlFlow" ConfigName="Release"/>
       <Project Name="Lec16_Pointers" ConfigName="Release"/>
       <Project Name="Lec17_References" ConfigName="Release"/>
+      <Project Name="Lec18_Classes" ConfigName="Release"/>
+      <Project Name="Lec19_ClassStructs" ConfigName="Release"/>
+      <Project Name="Lec20_HowToWriteClass" ConfigName="Release"/>
+      <Project Name="Lec21_Static" ConfigName="Release"/>
+      <Project Name="Lec22_StaticInClass" ConfigName="Release"/>
+      <Project Name="Lec23_LocalStat" ConfigName="Release"/>
+      <Project Name="Lec24_Enums" ConfigName="Release"/>
+      <Project Name="Lec25_ClassConstruct" ConfigName="Release"/>
+      <Project Name="Lec26_Descructors" ConfigName="Release"/>
+      <Project Name="Lec27_Inheritance" ConfigName="Release"/>
+      <Project Name="Lec28_VirtFuncs" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
