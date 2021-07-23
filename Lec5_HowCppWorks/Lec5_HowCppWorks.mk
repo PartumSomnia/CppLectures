@@ -6,15 +6,15 @@
 ProjectName            :=Lec5_HowCppWorks
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
-WorkspacePath          :=/home/vsevolod/CodeLight/test1
-ProjectPath            :=/home/vsevolod/CodeLight/test1/Lec5_HowCppWorks
+WorkspacePath          :=/home/vsevolod/GIT/GitHub/CppLectures
+ProjectPath            :=/home/vsevolod/GIT/GitHub/CppLectures/Lec5_HowCppWorks
 IntermediateDirectory  :=../build-$(ConfigurationName)/Lec5_HowCppWorks
 OutDir                 :=../build-$(ConfigurationName)/Lec5_HowCppWorks
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=vsevolod
-Date                   :=15/07/21
+Date                   :=23/07/21
 CodeLitePath           :=/home/vsevolod/.codelite
 LinkerName             :=g++
 SharedObjectLinkerName :=g++ -shared -fPIC
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(ObjectSuffix) ../build-$(ConfigurationName)/Lec5_HowCppWorks/main.cpp$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Lec5_HowCppWorks/main.cpp$(ObjectSuffix) ../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(ObjectSuffix) 
 
 
 
@@ -91,21 +91,21 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(ObjectSuffix): Log.cpp ../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/CodeLight/test1/Lec5_HowCppWorks/Log.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Log.cpp$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(DependSuffix): Log.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(DependSuffix) -MM Log.cpp
-
-../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(PreprocessSuffix): Log.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(PreprocessSuffix) Log.cpp
-
 ../build-$(ConfigurationName)/Lec5_HowCppWorks/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/Lec5_HowCppWorks/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/CodeLight/test1/Lec5_HowCppWorks/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/GIT/GitHub/CppLectures/Lec5_HowCppWorks/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 ../build-$(ConfigurationName)/Lec5_HowCppWorks/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Lec5_HowCppWorks/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Lec5_HowCppWorks/main.cpp$(DependSuffix) -MM main.cpp
 
 ../build-$(ConfigurationName)/Lec5_HowCppWorks/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Lec5_HowCppWorks/main.cpp$(PreprocessSuffix) main.cpp
+
+../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(ObjectSuffix): Log.cpp ../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/GIT/GitHub/CppLectures/Lec5_HowCppWorks/Log.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Log.cpp$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(DependSuffix): Log.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(DependSuffix) -MM Log.cpp
+
+../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(PreprocessSuffix): Log.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Lec5_HowCppWorks/Log.cpp$(PreprocessSuffix) Log.cpp
 
 
 -include ../build-$(ConfigurationName)/Lec5_HowCppWorks//*$(DependSuffix)

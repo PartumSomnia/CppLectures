@@ -25,7 +25,20 @@
   <Project Name="Lec25_ClassConstruct" Path="Lec25_ClassConstruct/Lec25_ClassConstruct.project" Active="No"/>
   <Project Name="Lec26_Descructors" Path="Lec26_Descructors/Lec26_Descructors.project" Active="No"/>
   <Project Name="Lec27_Inheritance" Path="Lec27_Inheritance/Lec27_Inheritance.project" Active="No"/>
-  <Project Name="Lec28_VirtFuncs" Path="Lec28_VirtFuncs/Lec28_VirtFuncs.project" Active="Yes"/>
+  <Project Name="Lec28_VirtFuncs" Path="Lec28_VirtFuncs/Lec28_VirtFuncs.project" Active="No"/>
+  <Project Name="Lec29_PureVirtFunc" Path="Lec29_PureVirtFunc/Lec29_PureVirtFunc.project" Active="No"/>
+  <Project Name="Lec30_Visibility" Path="Lec30_Visibility/Lec30_Visibility.project" Active="No"/>
+  <Project Name="Lec31_Arrays" Path="Lec31_Arrays/Lec31_Arrays.project" Active="No"/>
+  <Project Name="Lec32_Strings" Path="Lec32_Strings/Lec32_Strings.project" Active="No"/>
+  <Project Name="Lec33_StringLiterals" Path="Lec33_StringLiterals/Lec33_StringLiterals.project" Active="No"/>
+  <Project Name="Lec34_Const" Path="Lec33_Const/Lec33_Const.project" Active="No"/>
+  <Project Name="Lec35_Mutable" Path="Lec35+Mutable/Lec35+Mutable.project" Active="No"/>
+  <Project Name="Lec36_MembListInit" Path="Lec36_MembListInit/Lec36_MembListInit.project" Active="No"/>
+  <Project Name="Lec37_TernaryOper" Path="Lec37_TernaryOper/Lec37_TernaryOper.project" Active="No"/>
+  <Project Name="Lec38_CreateObjects" Path="Lec38_CreateObjects/Lec38_CreateObjects.project" Active="No"/>
+  <Project Name="Lec39_New" Path="Lec39_New/Lec39_New.project" Active="No"/>
+  <Project Name="Lec40_ImplicitConv" Path="Lec40_ImplicitConv/Lec40_ImplicitConv.project" Active="No"/>
+  <Project Name="Lec41_Operators" Path="Lec41_Operators/Lec41_Operators.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -55,6 +68,19 @@
       <Project Name="Lec26_Descructors" ConfigName="Debug"/>
       <Project Name="Lec27_Inheritance" ConfigName="Debug"/>
       <Project Name="Lec28_VirtFuncs" ConfigName="Debug"/>
+      <Project Name="Lec29_PureVirtFunc" ConfigName="Debug"/>
+      <Project Name="Lec30_Visibility" ConfigName="Debug"/>
+      <Project Name="Lec31_Arrays" ConfigName="Debug"/>
+      <Project Name="Lec32_Strings" ConfigName="Debug"/>
+      <Project Name="Lec33_StringLiterals" ConfigName="Debug"/>
+      <Project Name="Lec34_Const" ConfigName="Debug"/>
+      <Project Name="Lec35_Mutable" ConfigName="Debug"/>
+      <Project Name="Lec36_MembListInit" ConfigName="Debug"/>
+      <Project Name="Lec37_TernaryOper" ConfigName="Debug"/>
+      <Project Name="Lec38_CreateObjects" ConfigName="Debug"/>
+      <Project Name="Lec39_New" ConfigName="Debug"/>
+      <Project Name="Lec40_ImplicitConv" ConfigName="Debug"/>
+      <Project Name="Lec41_Operators" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -84,6 +110,19 @@
       <Project Name="Lec26_Descructors" ConfigName="Release"/>
       <Project Name="Lec27_Inheritance" ConfigName="Release"/>
       <Project Name="Lec28_VirtFuncs" ConfigName="Release"/>
+      <Project Name="Lec29_PureVirtFunc" ConfigName="Release"/>
+      <Project Name="Lec30_Visibility" ConfigName="Release"/>
+      <Project Name="Lec31_Arrays" ConfigName="Release"/>
+      <Project Name="Lec32_Strings" ConfigName="Release"/>
+      <Project Name="Lec33_StringLiterals" ConfigName="Release"/>
+      <Project Name="Lec34_Const" ConfigName="Release"/>
+      <Project Name="Lec35_Mutable" ConfigName="Release"/>
+      <Project Name="Lec36_MembListInit" ConfigName="Release"/>
+      <Project Name="Lec37_TernaryOper" ConfigName="Release"/>
+      <Project Name="Lec38_CreateObjects" ConfigName="Release"/>
+      <Project Name="Lec39_New" ConfigName="Release"/>
+      <Project Name="Lec40_ImplicitConv" ConfigName="Release"/>
+      <Project Name="Lec41_Operators" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
