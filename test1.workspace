@@ -38,7 +38,14 @@
   <Project Name="Lec38_CreateObjects" Path="Lec38_CreateObjects/Lec38_CreateObjects.project" Active="No"/>
   <Project Name="Lec39_New" Path="Lec39_New/Lec39_New.project" Active="No"/>
   <Project Name="Lec40_ImplicitConv" Path="Lec40_ImplicitConv/Lec40_ImplicitConv.project" Active="No"/>
-  <Project Name="Lec41_Operators" Path="Lec41_Operators/Lec41_Operators.project" Active="Yes"/>
+  <Project Name="Lec41_Operators" Path="Lec41_Operators/Lec41_Operators.project" Active="No"/>
+  <Project Name="Lec42_This" Path="Lec42_This/Lec42_This.project" Active="No"/>
+  <Project Name="Lec43_ObjLifetime" Path="Lec43_ObjLifetime/Lec43_ObjLifetime.project" Active="No"/>
+  <Project Name="Lec44_SmartPtrs" Path="Lec44_SmartPtrs/Lec44_SmartPtrs.project" Active="No"/>
+  <Project Name="Lec45_Copying" Path="Lec45_Copying/Lec45_Copying.project" Active="No"/>
+  <Project Name="Lec46_ArrowOper" Path="Lec46_ArrowOper/Lec46_ArrowOper.project" Active="No"/>
+  <Project Name="Lec47_Vector" Path="Lec47_Vector/Lec47_Vector.project" Active="No"/>
+  <Project Name="Lec48_OptimVector" Path="Lec48_OptimVector/Lec48_OptimVector.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -81,6 +88,13 @@
       <Project Name="Lec39_New" ConfigName="Debug"/>
       <Project Name="Lec40_ImplicitConv" ConfigName="Debug"/>
       <Project Name="Lec41_Operators" ConfigName="Debug"/>
+      <Project Name="Lec42_This" ConfigName="Debug"/>
+      <Project Name="Lec43_ObjLifetime" ConfigName="Debug"/>
+      <Project Name="Lec44_SmartPtrs" ConfigName="Debug"/>
+      <Project Name="Lec45_Copying" ConfigName="Debug"/>
+      <Project Name="Lec46_ArrowOper" ConfigName="Debug"/>
+      <Project Name="Lec47_Vector" ConfigName="Debug"/>
+      <Project Name="Lec48_OptimVector" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -123,6 +137,13 @@
       <Project Name="Lec39_New" ConfigName="Release"/>
       <Project Name="Lec40_ImplicitConv" ConfigName="Release"/>
       <Project Name="Lec41_Operators" ConfigName="Release"/>
+      <Project Name="Lec42_This" ConfigName="Release"/>
+      <Project Name="Lec43_ObjLifetime" ConfigName="Release"/>
+      <Project Name="Lec44_SmartPtrs" ConfigName="Release"/>
+      <Project Name="Lec45_Copying" ConfigName="Release"/>
+      <Project Name="Lec46_ArrowOper" ConfigName="Release"/>
+      <Project Name="Lec47_Vector" ConfigName="Release"/>
+      <Project Name="Lec48_OptimVector" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
