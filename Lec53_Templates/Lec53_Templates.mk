@@ -3,13 +3,13 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Lec48_OptimVector
+ProjectName            :=Lec53_Templates
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
 WorkspacePath          :=/home/vsevolod/GIT/GitHub/CppLectures
-ProjectPath            :=/home/vsevolod/GIT/GitHub/CppLectures/Lec48_OptimVector
-IntermediateDirectory  :=../build-$(ConfigurationName)/Lec48_OptimVector
-OutDir                 :=../build-$(ConfigurationName)/Lec48_OptimVector
+ProjectPath            :=/home/vsevolod/GIT/GitHub/CppLectures/Lec53_Templates
+IntermediateDirectory  :=../build-$(ConfigurationName)/Lec53_Templates
+OutDir                 :=../build-$(ConfigurationName)/Lec53_Templates
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Lec53_Templates/main.cpp$(ObjectSuffix) 
 
 
 
@@ -72,18 +72,18 @@ Objects=$(Objects0)
 .PHONY: all clean PreBuild PrePreBuild PostBuild MakeIntermediateDirs
 all: MakeIntermediateDirs $(OutputFile)
 
-$(OutputFile): ../build-$(ConfigurationName)/Lec48_OptimVector/.d $(Objects) 
-	@mkdir -p "../build-$(ConfigurationName)/Lec48_OptimVector"
+$(OutputFile): ../build-$(ConfigurationName)/Lec53_Templates/.d $(Objects) 
+	@mkdir -p "../build-$(ConfigurationName)/Lec53_Templates"
 	@echo "" > $(IntermediateDirectory)/.d
 	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@mkdir -p "../build-$(ConfigurationName)/Lec48_OptimVector"
+	@mkdir -p "../build-$(ConfigurationName)/Lec53_Templates"
 	@mkdir -p ""../build-$(ConfigurationName)/bin""
 
-../build-$(ConfigurationName)/Lec48_OptimVector/.d:
-	@mkdir -p "../build-$(ConfigurationName)/Lec48_OptimVector"
+../build-$(ConfigurationName)/Lec53_Templates/.d:
+	@mkdir -p "../build-$(ConfigurationName)/Lec53_Templates"
 
 PreBuild:
 
@@ -91,16 +91,16 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/GIT/GitHub/CppLectures/Lec48_OptimVector/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(DependSuffix): main.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(DependSuffix) -MM main.cpp
+../build-$(ConfigurationName)/Lec53_Templates/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/Lec53_Templates/main.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/GIT/GitHub/CppLectures/Lec53_Templates/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Lec53_Templates/main.cpp$(DependSuffix): main.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Lec53_Templates/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Lec53_Templates/main.cpp$(DependSuffix) -MM main.cpp
 
-../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(PreprocessSuffix): main.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(PreprocessSuffix) main.cpp
+../build-$(ConfigurationName)/Lec53_Templates/main.cpp$(PreprocessSuffix): main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Lec53_Templates/main.cpp$(PreprocessSuffix) main.cpp
 
 
--include ../build-$(ConfigurationName)/Lec48_OptimVector//*$(DependSuffix)
+-include ../build-$(ConfigurationName)/Lec53_Templates//*$(DependSuffix)
 ##
 ## Clean
 ##

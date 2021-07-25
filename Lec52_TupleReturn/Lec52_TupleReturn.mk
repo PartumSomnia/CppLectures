@@ -3,13 +3,13 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Lec48_OptimVector
+ProjectName            :=Lec52_TupleReturn
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
 WorkspacePath          :=/home/vsevolod/GIT/GitHub/CppLectures
-ProjectPath            :=/home/vsevolod/GIT/GitHub/CppLectures/Lec48_OptimVector
-IntermediateDirectory  :=../build-$(ConfigurationName)/Lec48_OptimVector
-OutDir                 :=../build-$(ConfigurationName)/Lec48_OptimVector
+ProjectPath            :=/home/vsevolod/GIT/GitHub/CppLectures/Lec52_TupleReturn
+IntermediateDirectory  :=../build-$(ConfigurationName)/Lec52_TupleReturn
+OutDir                 :=../build-$(ConfigurationName)/Lec52_TupleReturn
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Lec52_TupleReturn/main.cpp$(ObjectSuffix) 
 
 
 
@@ -72,18 +72,18 @@ Objects=$(Objects0)
 .PHONY: all clean PreBuild PrePreBuild PostBuild MakeIntermediateDirs
 all: MakeIntermediateDirs $(OutputFile)
 
-$(OutputFile): ../build-$(ConfigurationName)/Lec48_OptimVector/.d $(Objects) 
-	@mkdir -p "../build-$(ConfigurationName)/Lec48_OptimVector"
+$(OutputFile): ../build-$(ConfigurationName)/Lec52_TupleReturn/.d $(Objects) 
+	@mkdir -p "../build-$(ConfigurationName)/Lec52_TupleReturn"
 	@echo "" > $(IntermediateDirectory)/.d
 	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@mkdir -p "../build-$(ConfigurationName)/Lec48_OptimVector"
+	@mkdir -p "../build-$(ConfigurationName)/Lec52_TupleReturn"
 	@mkdir -p ""../build-$(ConfigurationName)/bin""
 
-../build-$(ConfigurationName)/Lec48_OptimVector/.d:
-	@mkdir -p "../build-$(ConfigurationName)/Lec48_OptimVector"
+../build-$(ConfigurationName)/Lec52_TupleReturn/.d:
+	@mkdir -p "../build-$(ConfigurationName)/Lec52_TupleReturn"
 
 PreBuild:
 
@@ -91,16 +91,16 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/GIT/GitHub/CppLectures/Lec48_OptimVector/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(DependSuffix): main.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(DependSuffix) -MM main.cpp
+../build-$(ConfigurationName)/Lec52_TupleReturn/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/Lec52_TupleReturn/main.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/GIT/GitHub/CppLectures/Lec52_TupleReturn/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Lec52_TupleReturn/main.cpp$(DependSuffix): main.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Lec52_TupleReturn/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Lec52_TupleReturn/main.cpp$(DependSuffix) -MM main.cpp
 
-../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(PreprocessSuffix): main.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Lec48_OptimVector/main.cpp$(PreprocessSuffix) main.cpp
+../build-$(ConfigurationName)/Lec52_TupleReturn/main.cpp$(PreprocessSuffix): main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Lec52_TupleReturn/main.cpp$(PreprocessSuffix) main.cpp
 
 
--include ../build-$(ConfigurationName)/Lec48_OptimVector//*$(DependSuffix)
+-include ../build-$(ConfigurationName)/Lec52_TupleReturn//*$(DependSuffix)
 ##
 ## Clean
 ##

@@ -45,7 +45,14 @@
   <Project Name="Lec45_Copying" Path="Lec45_Copying/Lec45_Copying.project" Active="No"/>
   <Project Name="Lec46_ArrowOper" Path="Lec46_ArrowOper/Lec46_ArrowOper.project" Active="No"/>
   <Project Name="Lec47_Vector" Path="Lec47_Vector/Lec47_Vector.project" Active="No"/>
-  <Project Name="Lec48_OptimVector" Path="Lec48_OptimVector/Lec48_OptimVector.project" Active="Yes"/>
+  <Project Name="Lec48_OptimVector" Path="Lec48_OptimVector/Lec48_OptimVector.project" Active="No"/>
+  <Project Name="Lec49_Libraries" Path="Lec49_Libraries/Lec49_Libraries.project" Active="No"/>
+  <Project Name="Lec52_TupleReturn" Path="Lec52_TupleReturn/Lec52_TupleReturn.project" Active="No"/>
+  <Project Name="Lec53_Templates" Path="Lec53_Templates/Lec53_Templates.project" Active="No"/>
+  <Project Name="Lec54_StackHeap" Path="Lec54_StackHeap/Lec54_StackHeap.project" Active="No"/>
+  <Project Name="Lec55_Macros" Path="Lec55_Macros/Lec55_Macros.project" Active="No"/>
+  <Project Name="Lec56_Auto" Path="Lec56_Auto/Lec56_Auto.project" Active="No"/>
+  <Project Name="Lec57_StdArray" Path="Lec57_StdArray/Lec57_StdArray.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -95,6 +102,13 @@
       <Project Name="Lec46_ArrowOper" ConfigName="Debug"/>
       <Project Name="Lec47_Vector" ConfigName="Debug"/>
       <Project Name="Lec48_OptimVector" ConfigName="Debug"/>
+      <Project Name="Lec49_Libraries" ConfigName="Debug"/>
+      <Project Name="Lec52_TupleReturn" ConfigName="Debug"/>
+      <Project Name="Lec53_Templates" ConfigName="Debug"/>
+      <Project Name="Lec54_StackHeap" ConfigName="Debug"/>
+      <Project Name="Lec55_Macros" ConfigName="Debug"/>
+      <Project Name="Lec56_Auto" ConfigName="Debug"/>
+      <Project Name="Lec57_StdArray" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -144,6 +158,13 @@
       <Project Name="Lec46_ArrowOper" ConfigName="Release"/>
       <Project Name="Lec47_Vector" ConfigName="Release"/>
       <Project Name="Lec48_OptimVector" ConfigName="Release"/>
+      <Project Name="Lec49_Libraries" ConfigName="Release"/>
+      <Project Name="Lec52_TupleReturn" ConfigName="Release"/>
+      <Project Name="Lec53_Templates" ConfigName="Release"/>
+      <Project Name="Lec54_StackHeap" ConfigName="Release"/>
+      <Project Name="Lec55_Macros" ConfigName="Release"/>
+      <Project Name="Lec56_Auto" ConfigName="Release"/>
+      <Project Name="Lec57_StdArray" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
