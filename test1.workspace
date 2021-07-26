@@ -52,7 +52,14 @@
   <Project Name="Lec54_StackHeap" Path="Lec54_StackHeap/Lec54_StackHeap.project" Active="No"/>
   <Project Name="Lec55_Macros" Path="Lec55_Macros/Lec55_Macros.project" Active="No"/>
   <Project Name="Lec56_Auto" Path="Lec56_Auto/Lec56_Auto.project" Active="No"/>
-  <Project Name="Lec57_StdArray" Path="Lec57_StdArray/Lec57_StdArray.project" Active="Yes"/>
+  <Project Name="Lec57_StdArray" Path="Lec57_StdArray/Lec57_StdArray.project" Active="No"/>
+  <Project Name="Lec58_FuncPointers" Path="Lec58_FuncPointers/Lec58_FuncPointers.project" Active="No"/>
+  <Project Name="Lec59_Lambdas" Path="Lec59_Lambdas/Lec59_Lambdas.project" Active="No"/>
+  <Project Name="Lec61_NameSpaces" Path="Lec61_NameSpaces/Lec61_NameSpaces.project" Active="No"/>
+  <Project Name="Lec62_Threads" Path="Lec62_Threads/Lec62_Threads.project" Active="No"/>
+  <Project Name="Lec63_Timing" Path="Lec63_Timing/Lec63_Timing.project" Active="No"/>
+  <Project Name="Lec64_MultiDArrays" Path="Lec64_MultiDArrays/Lec64_MultiDArrays.project" Active="No"/>
+  <Project Name="Lec66_Sorting" Path="Lec66_Sorting/Lec66_Sorting.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -109,6 +116,13 @@
       <Project Name="Lec55_Macros" ConfigName="Debug"/>
       <Project Name="Lec56_Auto" ConfigName="Debug"/>
       <Project Name="Lec57_StdArray" ConfigName="Debug"/>
+      <Project Name="Lec58_FuncPointers" ConfigName="Debug"/>
+      <Project Name="Lec59_Lambdas" ConfigName="Debug"/>
+      <Project Name="Lec61_NameSpaces" ConfigName="Debug"/>
+      <Project Name="Lec62_Threads" ConfigName="Debug"/>
+      <Project Name="Lec63_Timing" ConfigName="Debug"/>
+      <Project Name="Lec64_MultiDArrays" ConfigName="Debug"/>
+      <Project Name="Lec66_Sorting" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -165,6 +179,13 @@
       <Project Name="Lec55_Macros" ConfigName="Release"/>
       <Project Name="Lec56_Auto" ConfigName="Release"/>
       <Project Name="Lec57_StdArray" ConfigName="Release"/>
+      <Project Name="Lec58_FuncPointers" ConfigName="Release"/>
+      <Project Name="Lec59_Lambdas" ConfigName="Release"/>
+      <Project Name="Lec61_NameSpaces" ConfigName="Release"/>
+      <Project Name="Lec62_Threads" ConfigName="Release"/>
+      <Project Name="Lec63_Timing" ConfigName="Release"/>
+      <Project Name="Lec64_MultiDArrays" ConfigName="Release"/>
+      <Project Name="Lec66_Sorting" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
