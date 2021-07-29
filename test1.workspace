@@ -59,7 +59,18 @@
   <Project Name="Lec62_Threads" Path="Lec62_Threads/Lec62_Threads.project" Active="No"/>
   <Project Name="Lec63_Timing" Path="Lec63_Timing/Lec63_Timing.project" Active="No"/>
   <Project Name="Lec64_MultiDArrays" Path="Lec64_MultiDArrays/Lec64_MultiDArrays.project" Active="No"/>
-  <Project Name="Lec66_Sorting" Path="Lec66_Sorting/Lec66_Sorting.project" Active="Yes"/>
+  <Project Name="Lec66_TypePunning" Path="Lec66_TypePunning/Lec66_TypePunning.project" Active="No"/>
+  <Project Name="Lec65_Sorting" Path="Lec65_Sorting/Lec65_Sorting.project" Active="No"/>
+  <Project Name="Lec67_Unions" Path="Lec67_Unions/Lec67_Unions.project" Active="No"/>
+  <Project Name="Lec68_VirtDistruct" Path="Lec68_VirtDistruct/Lec68_VirtDistruct.project" Active="No"/>
+  <Project Name="Lec69_Casting" Path="Lec69_Casting/Lec69_Casting.project" Active="No"/>
+  <Project Name="Lec72_PrecompHeaders" Path="Lec72_PrecompHeaders/Lec72_PrecompHeaders.project" Active="No"/>
+  <Project Name="Lec73_DynCasting" Path="Lec73_DynCasting/Lec73_DynCasting.project" Active="No"/>
+  <Project Name="Lec74_Benchmark" Path="Lec74_Benchmark/Lec74_Benchmark.project" Active="No"/>
+  <Project Name="Lec75_StructBindings" Path="Lec75_StructBindings/Lec75_StructBindings.project" Active="No"/>
+  <Project Name="Lec76_OptionalData" Path="Lec76_OptionalData/Lec76_OptionalData.project" Active="No"/>
+  <Project Name="Lec77_MultTypesSingVar" Path="Lec77_MultTypesSingVar/Lec77_MultTypesSingVar.project" Active="No"/>
+  <Project Name="Lec78_AnyDataInVar" Path="Lec78_AnyDataInVar/Lec78_AnyDataInVar.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -122,7 +133,18 @@
       <Project Name="Lec62_Threads" ConfigName="Debug"/>
       <Project Name="Lec63_Timing" ConfigName="Debug"/>
       <Project Name="Lec64_MultiDArrays" ConfigName="Debug"/>
-      <Project Name="Lec66_Sorting" ConfigName="Debug"/>
+      <Project Name="Lec66_TypePunning" ConfigName="Debug"/>
+      <Project Name="Lec65_Sorting" ConfigName="Debug"/>
+      <Project Name="Lec67_Unions" ConfigName="Debug"/>
+      <Project Name="Lec68_VirtDistruct" ConfigName="Debug"/>
+      <Project Name="Lec69_Casting" ConfigName="Debug"/>
+      <Project Name="Lec72_PrecompHeaders" ConfigName="Debug"/>
+      <Project Name="Lec73_DynCasting" ConfigName="Debug"/>
+      <Project Name="Lec74_Benchmark" ConfigName="Debug"/>
+      <Project Name="Lec75_StructBindings" ConfigName="Debug"/>
+      <Project Name="Lec76_OptionalData" ConfigName="Debug"/>
+      <Project Name="Lec77_MultTypesSingVar" ConfigName="Debug"/>
+      <Project Name="Lec78_AnyDataInVar" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -185,7 +207,18 @@
       <Project Name="Lec62_Threads" ConfigName="Release"/>
       <Project Name="Lec63_Timing" ConfigName="Release"/>
       <Project Name="Lec64_MultiDArrays" ConfigName="Release"/>
-      <Project Name="Lec66_Sorting" ConfigName="Release"/>
+      <Project Name="Lec66_TypePunning" ConfigName="Release"/>
+      <Project Name="Lec65_Sorting" ConfigName="Release"/>
+      <Project Name="Lec67_Unions" ConfigName="Release"/>
+      <Project Name="Lec68_VirtDistruct" ConfigName="Release"/>
+      <Project Name="Lec69_Casting" ConfigName="Release"/>
+      <Project Name="Lec72_PrecompHeaders" ConfigName="Release"/>
+      <Project Name="Lec73_DynCasting" ConfigName="Release"/>
+      <Project Name="Lec74_Benchmark" ConfigName="Release"/>
+      <Project Name="Lec75_StructBindings" ConfigName="Release"/>
+      <Project Name="Lec76_OptionalData" ConfigName="Release"/>
+      <Project Name="Lec77_MultTypesSingVar" ConfigName="Release"/>
+      <Project Name="Lec78_AnyDataInVar" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
