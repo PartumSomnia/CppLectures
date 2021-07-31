@@ -70,7 +70,12 @@
   <Project Name="Lec75_StructBindings" Path="Lec75_StructBindings/Lec75_StructBindings.project" Active="No"/>
   <Project Name="Lec76_OptionalData" Path="Lec76_OptionalData/Lec76_OptionalData.project" Active="No"/>
   <Project Name="Lec77_MultTypesSingVar" Path="Lec77_MultTypesSingVar/Lec77_MultTypesSingVar.project" Active="No"/>
-  <Project Name="Lec78_AnyDataInVar" Path="Lec78_AnyDataInVar/Lec78_AnyDataInVar.project" Active="Yes"/>
+  <Project Name="Lec78_AnyDataInVar" Path="Lec78_AnyDataInVar/Lec78_AnyDataInVar.project" Active="No"/>
+  <Project Name="Lec81_VisBenchmark" Path="Lec81_VisBenchmark/Lec81_VisBenchmark.project" Active="No"/>
+  <Project Name="Lec82_Singleton" Path="Lec82_Singleton/Lec82_Singleton.project" Active="No"/>
+  <Project Name="Lec84_TrackMemAlloc" Path="Lec84_TrackMemAlloc/Lec84_TrackMemAlloc.project" Active="No"/>
+  <Project Name="Lec85_RandLvalues" Path="Lec85_RandLvalues/Lec85_RandLvalues.project" Active="No"/>
+  <Project Name="Lec89_MoveSemantics" Path="Lec89_MoveSemantics/Lec89_MoveSemantics.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -145,6 +150,11 @@
       <Project Name="Lec76_OptionalData" ConfigName="Debug"/>
       <Project Name="Lec77_MultTypesSingVar" ConfigName="Debug"/>
       <Project Name="Lec78_AnyDataInVar" ConfigName="Debug"/>
+      <Project Name="Lec81_VisBenchmark" ConfigName="Debug"/>
+      <Project Name="Lec82_Singleton" ConfigName="Debug"/>
+      <Project Name="Lec84_TrackMemAlloc" ConfigName="Debug"/>
+      <Project Name="Lec85_RandLvalues" ConfigName="Debug"/>
+      <Project Name="Lec89_MoveSemantics" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -219,6 +229,11 @@
       <Project Name="Lec76_OptionalData" ConfigName="Release"/>
       <Project Name="Lec77_MultTypesSingVar" ConfigName="Release"/>
       <Project Name="Lec78_AnyDataInVar" ConfigName="Release"/>
+      <Project Name="Lec81_VisBenchmark" ConfigName="Release"/>
+      <Project Name="Lec82_Singleton" ConfigName="Release"/>
+      <Project Name="Lec84_TrackMemAlloc" ConfigName="Release"/>
+      <Project Name="Lec85_RandLvalues" ConfigName="Release"/>
+      <Project Name="Lec89_MoveSemantics" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
