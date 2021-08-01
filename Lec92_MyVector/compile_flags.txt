@@ -1,0 +1,2 @@
+-I/home/vsevolod/GIT/GitHub/CppLectures/Lec92_MyVector
+-std=c++17

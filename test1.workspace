@@ -75,7 +75,10 @@
   <Project Name="Lec82_Singleton" Path="Lec82_Singleton/Lec82_Singleton.project" Active="No"/>
   <Project Name="Lec84_TrackMemAlloc" Path="Lec84_TrackMemAlloc/Lec84_TrackMemAlloc.project" Active="No"/>
   <Project Name="Lec85_RandLvalues" Path="Lec85_RandLvalues/Lec85_RandLvalues.project" Active="No"/>
-  <Project Name="Lec89_MoveSemantics" Path="Lec89_MoveSemantics/Lec89_MoveSemantics.project" Active="Yes"/>
+  <Project Name="Lec89_MoveSemantics" Path="Lec89_MoveSemantics/Lec89_MoveSemantics.project" Active="No"/>
+  <Project Name="Lec90_StdMove" Path="Lec90_StdMove/Lec90_StdMove.project" Active="No"/>
+  <Project Name="Lec91_MyArray" Path="Lec91_MyArray/Lec91_MyArray.project" Active="No"/>
+  <Project Name="Lec92_MyVector" Path="Lec92_MyVector/Lec92_MyVector.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -155,6 +158,9 @@
       <Project Name="Lec84_TrackMemAlloc" ConfigName="Debug"/>
       <Project Name="Lec85_RandLvalues" ConfigName="Debug"/>
       <Project Name="Lec89_MoveSemantics" ConfigName="Debug"/>
+      <Project Name="Lec90_StdMove" ConfigName="Debug"/>
+      <Project Name="Lec91_MyArray" ConfigName="Debug"/>
+      <Project Name="Lec92_MyVector" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -234,6 +240,9 @@
       <Project Name="Lec84_TrackMemAlloc" ConfigName="Release"/>
       <Project Name="Lec85_RandLvalues" ConfigName="Release"/>
       <Project Name="Lec89_MoveSemantics" ConfigName="Release"/>
+      <Project Name="Lec90_StdMove" ConfigName="Release"/>
+      <Project Name="Lec91_MyArray" ConfigName="Release"/>
+      <Project Name="Lec92_MyVector" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
