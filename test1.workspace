@@ -78,7 +78,9 @@
   <Project Name="Lec89_MoveSemantics" Path="Lec89_MoveSemantics/Lec89_MoveSemantics.project" Active="No"/>
   <Project Name="Lec90_StdMove" Path="Lec90_StdMove/Lec90_StdMove.project" Active="No"/>
   <Project Name="Lec91_MyArray" Path="Lec91_MyArray/Lec91_MyArray.project" Active="No"/>
-  <Project Name="Lec92_MyVector" Path="Lec92_MyVector/Lec92_MyVector.project" Active="Yes"/>
+  <Project Name="Lec92_MyVector" Path="Lec92_MyVector/Lec92_MyVector.project" Active="No"/>
+  <Project Name="Lec93_Iterators" Path="Lec93_Iterators/Lec93_Iterators.project" Active="No"/>
+  <Project Name="Lec94_MyIterator" Path="Lec94_MyIterator/Lec94_MyIterator.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -161,6 +163,8 @@
       <Project Name="Lec90_StdMove" ConfigName="Debug"/>
       <Project Name="Lec91_MyArray" ConfigName="Debug"/>
       <Project Name="Lec92_MyVector" ConfigName="Debug"/>
+      <Project Name="Lec93_Iterators" ConfigName="Debug"/>
+      <Project Name="Lec94_MyIterator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -243,6 +247,8 @@
       <Project Name="Lec90_StdMove" ConfigName="Release"/>
       <Project Name="Lec91_MyArray" ConfigName="Release"/>
       <Project Name="Lec92_MyVector" ConfigName="Release"/>
+      <Project Name="Lec93_Iterators" ConfigName="Release"/>
+      <Project Name="Lec94_MyIterator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

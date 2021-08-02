@@ -3,13 +3,13 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Lec9_Functions
+ProjectName            :=Lec94_MyIterator
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
 WorkspacePath          :=/home/vsevolod/GIT/GitHub/CppLectures
-ProjectPath            :=/home/vsevolod/GIT/GitHub/CppLectures/Lec9_Functions
-IntermediateDirectory  :=../build-$(ConfigurationName)/Lec9_Functions
-OutDir                 :=../build-$(ConfigurationName)/Lec9_Functions
+ProjectPath            :=/home/vsevolod/GIT/GitHub/CppLectures/Lec94_MyIterator
+IntermediateDirectory  :=../build-$(ConfigurationName)/Lec94_MyIterator
+OutDir                 :=../build-$(ConfigurationName)/Lec94_MyIterator
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/Lec9_Functions/main.cpp$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Lec94_MyIterator/main.cpp$(ObjectSuffix) 
 
 
 
@@ -72,18 +72,18 @@ Objects=$(Objects0)
 .PHONY: all clean PreBuild PrePreBuild PostBuild MakeIntermediateDirs
 all: MakeIntermediateDirs $(OutputFile)
 
-$(OutputFile): ../build-$(ConfigurationName)/Lec9_Functions/.d $(Objects) 
-	@mkdir -p "../build-$(ConfigurationName)/Lec9_Functions"
+$(OutputFile): ../build-$(ConfigurationName)/Lec94_MyIterator/.d $(Objects) 
+	@mkdir -p "../build-$(ConfigurationName)/Lec94_MyIterator"
 	@echo "" > $(IntermediateDirectory)/.d
 	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@mkdir -p "../build-$(ConfigurationName)/Lec9_Functions"
+	@mkdir -p "../build-$(ConfigurationName)/Lec94_MyIterator"
 	@mkdir -p ""../build-$(ConfigurationName)/bin""
 
-../build-$(ConfigurationName)/Lec9_Functions/.d:
-	@mkdir -p "../build-$(ConfigurationName)/Lec9_Functions"
+../build-$(ConfigurationName)/Lec94_MyIterator/.d:
+	@mkdir -p "../build-$(ConfigurationName)/Lec94_MyIterator"
 
 PreBuild:
 
@@ -91,16 +91,16 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/Lec9_Functions/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/Lec9_Functions/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/GIT/GitHub/CppLectures/Lec9_Functions/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/Lec9_Functions/main.cpp$(DependSuffix): main.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Lec9_Functions/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Lec9_Functions/main.cpp$(DependSuffix) -MM main.cpp
+../build-$(ConfigurationName)/Lec94_MyIterator/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/Lec94_MyIterator/main.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/vsevolod/GIT/GitHub/CppLectures/Lec94_MyIterator/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Lec94_MyIterator/main.cpp$(DependSuffix): main.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Lec94_MyIterator/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Lec94_MyIterator/main.cpp$(DependSuffix) -MM main.cpp
 
-../build-$(ConfigurationName)/Lec9_Functions/main.cpp$(PreprocessSuffix): main.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Lec9_Functions/main.cpp$(PreprocessSuffix) main.cpp
+../build-$(ConfigurationName)/Lec94_MyIterator/main.cpp$(PreprocessSuffix): main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Lec94_MyIterator/main.cpp$(PreprocessSuffix) main.cpp
 
 
--include ../build-$(ConfigurationName)/Lec9_Functions//*$(DependSuffix)
+-include ../build-$(ConfigurationName)/Lec94_MyIterator//*$(DependSuffix)
 ##
 ## Clean
 ##
